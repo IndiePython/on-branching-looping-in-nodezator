@@ -174,6 +174,10 @@ Looking back at the code from the extended `beauty_score` example presented befo
 ![node layout within Nodezator](images/img07_beauty_score_in_nodezator02.svg)
 
 
+## Wrapping up implementation of branching feature
+
+In summary, the branching feature in Nodezator will be supported by 02 new nodes which can handle all related use-cases together. A part of the use-cases requires only the usage of the `if_elif_else` node, that is, whenever the execution ends in one of the paths presented. The other part of the use-cases requires the usage of the `branching_endpoint` node along with the `if_elif_else` node, and consist of the circumstances where the paths of execution presented need to join at some point. The usage of a `branching_endpoint` node without the corresponding `if_elif_else` node doesn't make sense and will probably result in a warning being presented to the user via the user log (that can be accessed via **<Ctrl+Shift+J>** in the app).
+
 
 ## About `match/case` statements
 
