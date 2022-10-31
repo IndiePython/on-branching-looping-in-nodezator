@@ -1,8 +1,11 @@
-# Branching and Looping in Nodezator
+# Implementing Branching and Looping in Nodezator
 
 This project consists of an article on implementing branching and looping in the Nodezator app.
 
-You can see the table of contents below. You probably should read the article from beginning to end, rather than jumping between specific parts.
+This article was created to communicate the planned approach to implementing branching and looping in Nodezator to users. The discussion regarding this work can be found on [this link](https://github.com/IndiePython/nodezator/discussions/34). There you can share your feedback on this article, suggest improvements, etc.
+
+You can see the table of contents below. You probably should read the article from beginning to end, rather than jump between specific parts.
+
 
 
 ## Table of contents
