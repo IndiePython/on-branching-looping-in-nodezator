@@ -1,0 +1,5053 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2599.1035"
+   height="2156.4277"
+   version="1.1"
+   id="svg285"
+   sodipodi:docname="for_loop_node_in_action.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs289">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11995" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11989" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11995-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11989-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-53"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11995-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path11989-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview287"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.9049274"
+     inkscape:cx="1306.1821"
+     inkscape:cy="1581.8948"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg285" />
+  <style
+     id="style2">
+rect.graph_bg {fill:rgb(34, 34, 42);}
+
+.checker_a {
+  fill: rgb(235, 235, 235);
+}
+
+.checker_b {
+  fill: rgb(20, 20, 20);
+}
+
+
+g.callable_node &gt; rect.normal_fill
+{
+  fill           : rgb(90, 90, 120);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.commented_out_fill
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_0
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_1
+{
+  fill           : rgb(1, 14, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_2
+{
+  fill           : rgb(157, 1, 66);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_3
+{
+  fill           : rgb(1, 92, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_4
+{
+  fill           : rgb(92, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_5
+{
+  fill           : rgb(140, 18, 18);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_6
+{
+  fill           : rgb(131, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_7
+{
+  fill           : rgb(11, 60, 55);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_8
+{
+  fill           : rgb(60, 36, 11);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_9
+{
+  fill           : rgb(9, 52, 10);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_10
+{
+  fill           : rgb(133, 124, 8);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+
+
+g.callable_node &gt; path.header_outline
+{
+  fill         : none;
+  fill-opacity : 0;
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.callable_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.callable_node &gt; text.title
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.id_bg_rect_0
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_1
+{
+  fill         : rgb(1, 14, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_2
+{
+  fill         : rgb(157, 1, 66);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_3
+{
+  fill         : rgb(1, 92, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_4
+{
+  fill         : rgb(92, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_5
+{
+  fill         : rgb(140, 18, 18);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_6
+{
+  fill         : rgb(131, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_7
+{
+  fill         : rgb(11, 60, 55);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_8
+{
+  fill         : rgb(60, 36, 11);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_9
+{
+  fill         : rgb(9, 52, 10);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_10
+{
+  fill         : rgb(133, 124, 8);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+
+
+g.callable_node &gt; text.id_text
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.outline
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+  fill-opacity : 0;
+}
+
+g.callable_node &gt; text.label
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; path.subparam_key
+{
+  fill: yellow;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.normal_subparam_key_hole
+{
+  fill: rgb(90, 90, 120);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.commented_out_subparam_key_hole
+{
+  fill: rgb(30, 130, 70);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; path.add_button
+{
+  fill: rgb(180, 255, 180);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; rect.subparam_move_button
+{
+  fill:grey;
+  stroke:white;
+  stroke-width:1px;
+}
+
+g.callable_node &gt; path.subparam_move_button
+{
+  fill:black;
+}
+
+g.callable_node &gt; g.unpacking_icon &gt; line
+{
+  stroke: rgb(255, 255, 0);
+  stroke-width:2px;
+}
+
+
+g.proxy_node &gt; rect.normal_header
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; rect.commented_out_header
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.proxy_node &gt; text.normal_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; text.commented_out_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; path.add_button
+{
+  fill: rgb(62, 142, 255);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.proxy_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.header_fill_stlib_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_stlib_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_builtin_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_builtin_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_capsule_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_capsule_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+
+g.operator_node &gt; rect.normal_body
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; rect.commented_out_body
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; text.normal_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.commented_out_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.normal_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.normal_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+g.operator_node &gt; text.commented_out_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.commented_out_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+
+line {stroke-width: 4;}
+
+g.node &gt; circle
+{stroke-width: 2;}
+
+g.node &gt; circle.hollow_socket
+{
+
+  fill         : rgb(0, 0, 0);
+  fill-opacity : 0;
+
+  stroke : rgb(238, 238, 238);
+
+}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+
+g.node &gt; circle.str
+{
+  fill   : rgb(1, 181, 15);
+  stroke : rgb(0, 0, 0);
+}
+
+line.str
+{stroke : rgb(1, 181, 15);}
+
+g.node &gt; circle.bool
+{
+  fill   : rgb(40, 40, 255);
+  stroke : rgb(0, 0, 0);
+}
+
+line.bool
+{stroke : rgb(40, 40, 255);}
+
+g.node &gt; circle.dict
+{
+  fill   : rgb(157, 95, 178);
+  stroke : rgb(0, 0, 0);
+}
+
+line.dict
+{stroke : rgb(157, 95, 178);}
+
+g.node &gt; circle.number
+{
+  fill   : rgb(220, 0, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.number
+{stroke : rgb(220, 0, 0);}
+
+g.node &gt; circle.list
+{
+  fill   : rgb(243, 0, 112);
+  stroke : rgb(0, 0, 0);
+}
+
+line.list
+{stroke : rgb(243, 0, 112);}
+
+g.node &gt; circle.tuple
+{
+  fill   : rgb(6, 186, 253);
+  stroke : rgb(0, 0, 0);
+}
+
+line.tuple
+{stroke : rgb(6, 186, 253);}
+
+g.node &gt; circle.iterable
+{
+  fill   : rgb(239, 219, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterable
+{stroke : rgb(239, 219, 0);}
+
+g.node &gt; circle.iterator
+{
+  fill   : rgb(246, 133, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterator
+{stroke : rgb(246, 133, 0);}
+
+g.node &gt; circle.not_specified
+{
+  fill   : rgb(200, 200, 200);
+  stroke : rgb(0, 0, 0);
+}
+
+line.not_specified
+{stroke : rgb(200, 200, 200);}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+g.text_block &gt; rect
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(255, 255, 255);
+  stroke-width : 2;
+}
+
+g.text_block &gt; text
+{font:bold 15px monospace;}
+
+
+
+g.file_not_found_shapes &gt; rect {
+  fill: rgb(15, 15, 15);
+  stroke: none;
+}
+
+g.file_not_found_shapes &gt; ellipse {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+  fill:none;
+}
+
+g.file_not_found_shapes &gt; line {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+}
+
+
+g.default_holder &gt; rect {
+  fill: rgb(200, 200, 200);
+  stroke:black;
+  stroke-width:1px;
+}
+
+g.default_holder &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; rect {
+  fill: rgb(255, 255, 255);
+}
+
+g.literal_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(255, 212, 59);
+}
+
+g.literal_entry &gt; rect {
+  fill: rgb(48, 105, 152);
+}
+
+g.int_float_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+g.int_float_entry &gt; rect.bg {
+  fill: rgb(47, 47, 60);
+}
+
+g.int_float_entry &gt; rect.range_bg {
+  fill: rgb(30, 130, 70);
+}
+
+g.check_button &gt; rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.check_button &gt; polyline {
+  fill:none;
+  stroke:black;
+  stroke-width:3px;
+}
+
+g.option_menu &gt; rect {
+  fill: rgb(47, 47, 60);
+}
+
+g.option_menu &gt; path {
+  fill: rgb(238, 238, 238);
+}
+
+g.option_menu &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.option_tray &gt; rect.not_selected_bg {
+  fill: rgb(47, 47, 60);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+g.option_tray &gt; rect.selected_bg {
+  fill: rgb(30, 130, 70);
+  stroke: white;
+  stroke-width:1px;
+}
+
+g.option_tray &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.color_button &gt; path.color_unit_checker_bg {
+  fill:url(#checker_pattern);
+}
+
+g.color_button &gt; path.color_unit {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+
+
+
+g.path_preview &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+
+g.text_display &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+g.literal_display &gt; rect {
+  fill: rgb(48, 105, 152);
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+g.sorting_button &gt; rect {
+  fill:white;
+}
+
+g.sorting_button &gt; text {
+  font: bold 13px sans-serif;
+  fill: black;
+}
+
+.thumb_bg {
+  fill: rgb(40, 40, 90);
+}
+</style>
+  <pattern
+     x="0"
+     y="0"
+     width="10"
+     height="10"
+     id="checker_pattern"
+     patternUnits="userSpaceOnUse">
+    <rect
+       x="0"
+       y="0"
+       width="5"
+       height="5"
+       class="checker_a"
+       id="rect6" />
+    <rect
+       x="5"
+       y="5"
+       width="5"
+       height="5"
+       class="checker_a"
+       id="rect8" />
+    <rect
+       x="0"
+       y="5"
+       width="5"
+       height="5"
+       class="checker_b"
+       id="rect10" />
+    <rect
+       x="5"
+       y="0"
+       width="5"
+       height="5"
+       class="checker_b"
+       id="rect12" />
+  </pattern>
+  <path
+     style="fill:none;stroke:#f30070;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 387.84608,860.79436 529.7527,687.15861"
+     id="path1610"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#6e6f6f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 798.55124,686.79506 1411.7101,1573.684"
+     id="path2131"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#dc0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1252.6874,1757.709 160.4704,-64.3101"
+     id="path24233"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#01b50f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1252.7405,1652.5726 159.5441,-0.7185"
+     id="path24235"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#01b50f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1251.792,1561.2724 160.1489,50.6293"
+     id="path24237"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#6e6f6f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 800.1073,684.63945 1205.4196,120.393"
+     id="path25182"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#01b50f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1752.1842,1723.6161 431.8765,-212.8937"
+     id="path25740"
+     sodipodi:nodetypes="cc" />
+  <g
+     class="node callable_node"
+     id="g123"
+     transform="matrix(1.8481688,0,0,1.8481688,16.156631,426.47786)">
+    <rect
+       x="20"
+       y="14"
+       width="180"
+       height="254"
+       rx="8"
+       ry="8"
+       class="normal_fill"
+       id="rect15" />
+    <path
+       d="M 20,35 H 200 V 22 q 0,-8 -8,-8 H 28 q -8,0 -8,8 z"
+       class="header_fill_capsule_node"
+       id="path17" />
+    <path
+       d="M 20,35 H 200 V 22 q 0,-8 -8,-8 H 28 q -8,0 -8,8 z"
+       class="header_outline"
+       id="path19" />
+    <text
+       x="110"
+       y="29"
+       text-anchor="middle"
+       class="title"
+       id="text21"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">list_from_args</text>
+    <rect
+       x="102"
+       y="247"
+       width="16"
+       height="17"
+       class="id_bg_rect_capsule_node"
+       id="rect23" />
+    <text
+       x="110"
+       y="260"
+       text-anchor="middle"
+       class="id_text"
+       id="text25"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">0</text>
+    <rect
+       x="20"
+       y="14"
+       width="180"
+       height="254"
+       rx="8"
+       ry="8"
+       class="outline"
+       id="rect27" />
+    <path
+       d="m 36,207 h 4 v 4 h 4 v 4 h -4 v 4 h -4 v -4 h -4 v -4 h 4 z"
+       class="add_button"
+       id="path29" />
+    <path
+       d="m 208.80456,68.511402 -2.66776,2.980453 -2.98045,-2.667753 -2.66775,2.980453 -2.98045,-2.667752 2.66775,-2.980453 -2.98046,-2.667752 2.66776,-2.980453 2.98045,2.667753 2.66775,-2.980453 2.98045,2.667752 -2.66775,2.980453 z"
+       class="remove_button"
+       id="path31" />
+    <path
+       d="m 208.80456,119.5114 -2.66776,2.98045 -2.98045,-2.66775 -2.66775,2.98046 -2.98045,-2.66776 2.66775,-2.98045 -2.98046,-2.66775 2.66776,-2.98045 2.98045,2.66775 2.66775,-2.98046 2.98045,2.66776 -2.66775,2.98045 z"
+       class="remove_button"
+       id="path33" />
+    <path
+       d="m 208.80456,170.5114 -2.66776,2.98045 -2.98045,-2.66775 -2.66775,2.98046 -2.98045,-2.66776 2.66775,-2.98045 -2.98046,-2.66775 2.66776,-2.98045 2.98045,2.66775 2.66775,-2.98046 2.98045,2.66776 -2.66775,2.98045 z"
+       class="remove_button"
+       id="path35" />
+    <rect
+       x="29"
+       y="57"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect37" />
+    <path
+       d="m 33,58 -3,6 h 6 z"
+       class="subparam_move_button"
+       id="path39" />
+    <rect
+       x="29"
+       y="108"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect41" />
+    <path
+       d="m 33,109 -3,6 h 6 z"
+       class="subparam_move_button"
+       id="path43" />
+    <rect
+       x="29"
+       y="159"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect45" />
+    <path
+       d="m 33,160 -3,6 h 6 z"
+       class="subparam_move_button"
+       id="path47" />
+    <rect
+       x="29"
+       y="67"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect49" />
+    <path
+       d="m 33,74 -3,-6 h 6 z"
+       class="subparam_move_button"
+       id="path51" />
+    <rect
+       x="29"
+       y="118"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect53" />
+    <path
+       d="m 33,125 -3,-6 h 6 z"
+       class="subparam_move_button"
+       id="path55" />
+    <rect
+       x="29"
+       y="169"
+       width="8"
+       height="8"
+       class="subparam_move_button"
+       id="rect57" />
+    <path
+       d="m 33,176 -3,-6 h 6 z"
+       class="subparam_move_button"
+       id="path59" />
+    <circle
+       cx="18"
+       cy="66"
+       r="6"
+       class="not_specified"
+       id="circle61" />
+    <circle
+       cx="18"
+       cy="117"
+       r="6"
+       class="not_specified"
+       id="circle63" />
+    <circle
+       cx="18"
+       cy="168"
+       r="6"
+       class="not_specified"
+       id="circle65" />
+    <text
+       x="29"
+       y="53"
+       text-anchor="start"
+       class="label"
+       id="text67"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">*args</text>
+    <circle
+       cx="18"
+       cy="213"
+       r="6"
+       class="hollow_socket"
+       id="circle69" />
+    <g
+       class="path_preview"
+       id="g85">
+      <rect
+         x="42"
+         y="58"
+         width="153"
+         height="40"
+         id="rect71" />
+      <path
+         d="m 43,59 m 2,1 m 0,3 q 0,-3 3,-3 h 3 q 3,0 3,3 v 12 q 0,3 -3,3 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path73" />
+      <path
+         d="m 43,59 m 2,1 m 0,10 v -3 q 0,-3 3,-3 h 11 q 3,0 3,3 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path75" />
+      <path
+         d="m 43,59 m 2,1 m 0,10 v 5 q 0,3 3,3 h 11 q 3,0 3,-3 v -9 q 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path77" />
+      <path
+         d="m 64,59 m 1,1 H 83 V 78 H 65 V 60"
+         style="fill:#808080"
+         id="path79" />
+      <g
+         id="g83">
+        <text
+           x="194"
+           y="94"
+           text-anchor="end"
+           id="text81">…ennedy/file_a.json</text>
+      </g>
+    </g>
+    <g
+       class="path_preview"
+       id="g101">
+      <rect
+         x="42"
+         y="109"
+         width="153"
+         height="40"
+         id="rect87" />
+      <path
+         d="m 43,110 m 2,1 m 0,3 q 0,-3 3,-3 h 3 q 3,0 3,3 v 12 q 0,3 -3,3 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path89" />
+      <path
+         d="m 43,110 m 2,1 m 0,10 v -3 q 0,-3 3,-3 h 11 q 3,0 3,3 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path91" />
+      <path
+         d="m 43,110 m 2,1 m 0,10 v 5 q 0,3 3,3 h 11 q 3,0 3,-3 v -9 q 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path93" />
+      <path
+         d="m 64,110 m 1,1 h 18 v 18 H 65 v -18"
+         style="fill:#808080"
+         id="path95" />
+      <g
+         id="g99">
+        <text
+           x="194"
+           y="145"
+           text-anchor="end"
+           id="text97">…ennedy/file_b.json</text>
+      </g>
+    </g>
+    <g
+       class="path_preview"
+       id="g117">
+      <rect
+         x="42"
+         y="160"
+         width="153"
+         height="40"
+         id="rect103" />
+      <path
+         d="m 43,161 m 2,1 m 0,3 q 0,-3 3,-3 h 3 q 3,0 3,3 v 12 q 0,3 -3,3 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path105" />
+      <path
+         d="m 43,161 m 2,1 m 0,10 v -3 q 0,-3 3,-3 h 11 q 3,0 3,3 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path107" />
+      <path
+         d="m 43,161 m 2,1 m 0,10 v 5 q 0,3 3,3 h 11 q 3,0 3,-3 v -9 q 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path109" />
+      <path
+         d="m 64,161 m 1,1 h 18 v 18 H 65 v -18"
+         style="fill:#808080"
+         id="path111" />
+      <g
+         id="g115">
+        <text
+           x="194"
+           y="196"
+           text-anchor="end"
+           id="text113">…ennedy/file_c.json</text>
+      </g>
+    </g>
+    <circle
+       cx="202"
+       cy="235"
+       r="6"
+       class="list"
+       id="circle119" />
+    <text
+       x="192"
+       y="239"
+       text-anchor="end"
+       class="label"
+       id="text121"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">a_list</text>
+  </g>
+  <path
+     style="fill:none;stroke:#6e6f6f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1547.5515,1088.6934 153.2101,-42.1004"
+     id="path37234"
+     sodipodi:nodetypes="cc" />
+  <g
+     class="node callable_node"
+     id="g259"
+     transform="matrix(1.8481688,0,0,1.8481688,706.2564,6.0581893)">
+    <rect
+       x="273"
+       y="12"
+       width="180"
+       height="607"
+       rx="8"
+       ry="8"
+       class="normal_fill"
+       id="rect125" />
+    <path
+       d="M 273,34 H 453 V 20 q 0,-8 -8,-8 H 281 q -8,0 -8,8 z"
+       class="header_fill_capsule_node"
+       id="path127" />
+    <path
+       d="M 273,34 H 453 V 20 q 0,-8 -8,-8 H 281 q -8,0 -8,8 z"
+       class="header_outline"
+       id="path129" />
+    <text
+       x="363"
+       y="28"
+       text-anchor="middle"
+       class="title"
+       id="text131"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">load_json_file</text>
+    <rect
+       x="355"
+       y="598"
+       width="17"
+       height="17"
+       class="id_bg_rect_capsule_node"
+       id="rect133" />
+    <text
+       x="363"
+       y="611"
+       text-anchor="middle"
+       class="id_text"
+       id="text135"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">2</text>
+    <rect
+       x="273"
+       y="12"
+       width="180"
+       height="607"
+       rx="8"
+       ry="8"
+       class="outline"
+       id="rect137" />
+    <path
+       d="m 289,558 h 4 v 4 h 4 v 4 h -4 v 4 h -4 v -4 h -4 v -4 h 4 z"
+       class="add_button"
+       id="path139" />
+    <circle
+       cx="271"
+       cy="63"
+       r="6"
+       class="str"
+       id="circle141" />
+    <circle
+       cx="271"
+       cy="269"
+       r="6"
+       class="str"
+       id="circle143" />
+    <circle
+       cx="271"
+       cy="309"
+       r="6"
+       class="other"
+       id="circle145" />
+    <circle
+       cx="271"
+       cy="351"
+       r="6"
+       class="other"
+       id="circle147" />
+    <circle
+       cx="271"
+       cy="393"
+       r="6"
+       class="other"
+       id="circle149" />
+    <circle
+       cx="271"
+       cy="435"
+       r="6"
+       class="other"
+       id="circle151" />
+    <circle
+       cx="271"
+       cy="477"
+       r="6"
+       class="other"
+       id="circle153" />
+    <circle
+       cx="271"
+       cy="519"
+       r="6"
+       class="other"
+       id="circle155" />
+    <text
+       x="282"
+       y="50"
+       text-anchor="start"
+       class="label"
+       id="text157"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">filepath</text>
+    <text
+       x="282"
+       y="256"
+       text-anchor="start"
+       class="label"
+       id="text159"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">encoding</text>
+    <text
+       x="282"
+       y="296"
+       text-anchor="start"
+       class="label"
+       id="text161"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">cls</text>
+    <text
+       x="282"
+       y="338"
+       text-anchor="start"
+       class="label"
+       id="text163"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">object_hook</text>
+    <text
+       x="282"
+       y="380"
+       text-anchor="start"
+       class="label"
+       id="text165"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">parse_float</text>
+    <text
+       x="282"
+       y="422"
+       text-anchor="start"
+       class="label"
+       id="text167"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">parse_int</text>
+    <text
+       x="282"
+       y="464"
+       text-anchor="start"
+       class="label"
+       id="text169"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">parse_constant</text>
+    <text
+       x="282"
+       y="506"
+       text-anchor="start"
+       class="label"
+       id="text171"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">object_pairs_hook</text>
+    <text
+       x="282"
+       y="551"
+       text-anchor="start"
+       class="label"
+       id="text173"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">**kw</text>
+    <circle
+       cx="271"
+       cy="564"
+       r="6"
+       class="hollow_socket"
+       id="circle175" />
+    <g
+       class="path_preview"
+       id="g211">
+      <rect
+         x="288"
+         y="55"
+         width="153"
+         height="181"
+         id="rect177" />
+      <path
+         d="m 289,56 m 2,1 m 0,3 q 0,-3 3,-3 h 3 q 3,0 3,3 v 12 q 0,3 -3,3 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path179" />
+      <path
+         d="m 289,56 m 2,1 m 0,10 v -3 q 0,-3 3,-3 h 11 q 3,0 3,3 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path181" />
+      <path
+         d="m 289,56 m 2,1 m 0,10 v 5 q 0,3 3,3 h 11 q 3,0 3,-3 v -9 q 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path183" />
+      <path
+         d="m 310,56 m 5,3 h 13 q -4,4 0,8 4,4 0,8 h -13 q 4,-4 0,-8 -4,-4 0,-8 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2"
+         id="path185" />
+      <path
+         d="m 310,56 m 6,7 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path187" />
+      <path
+         d="m 310,56 m 8,11 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path189" />
+      <path
+         d="m 310,56 m 9,15 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path191" />
+      <path
+         d="m 420,56 m 2,1 m 0,6 v -3 q 0,-3 3,-3 h 8 q 3,0 3,3 v 4 h 3 l -5,4 -5,-4 h 3 v -4 h -6 v 3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2;stroke-linejoin:round"
+         id="path193" />
+      <path
+         d="m 420,56 m 0,1 m 0,11 5,-4 5,4 h -3 v 4 h 6 v -3 h 4 v 3 q 0,3 -3,3 h -8 q -3,0 -3,-3 v -4 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2;stroke-linejoin:round"
+         id="path195" />
+      <g
+         id="g209">
+        <g
+           class="file_not_found_shapes"
+           id="g203">
+          <rect
+             x="288"
+             y="76"
+             width="153"
+             height="141"
+             id="rect197" />
+          <ellipse
+             cx="364"
+             cy="146"
+             rx="68"
+             ry="62"
+             id="ellipse199" />
+          <line
+             x1="318"
+             y1="187"
+             x2="411"
+             y2="106"
+             id="line201" />
+        </g>
+        <g
+           id="g207">
+          <text
+             x="440"
+             y="232"
+             text-anchor="end"
+             id="text205">.</text>
+        </g>
+      </g>
+    </g>
+    <g
+       class="string_entry"
+       id="g217">
+      <rect
+         x="287"
+         y="260"
+         width="155"
+         height="17"
+         id="rect213" />
+      <text
+         x="287"
+         y="274"
+         text-anchor="start"
+         id="text215"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">utf-8</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g223">
+      <rect
+         x="288"
+         y="301"
+         width="36"
+         height="17"
+         id="rect219" />
+      <text
+         x="288"
+         y="313"
+         text-anchor="start"
+         id="text221"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g229">
+      <rect
+         x="288"
+         y="343"
+         width="36"
+         height="17"
+         id="rect225" />
+      <text
+         x="288"
+         y="355"
+         text-anchor="start"
+         id="text227"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g235">
+      <rect
+         x="288"
+         y="385"
+         width="36"
+         height="17"
+         id="rect231" />
+      <text
+         x="288"
+         y="397"
+         text-anchor="start"
+         id="text233"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g241">
+      <rect
+         x="288"
+         y="427"
+         width="36"
+         height="17"
+         id="rect237" />
+      <text
+         x="288"
+         y="439"
+         text-anchor="start"
+         id="text239"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g247">
+      <rect
+         x="288"
+         y="469"
+         width="36"
+         height="17"
+         id="rect243" />
+      <text
+         x="288"
+         y="481"
+         text-anchor="start"
+         id="text245"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <g
+       class="default_holder"
+       id="g253">
+      <rect
+         x="288"
+         y="511"
+         width="36"
+         height="17"
+         id="rect249" />
+      <text
+         x="288"
+         y="523"
+         text-anchor="start"
+         id="text251"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <circle
+       cx="455"
+       cy="586"
+       r="6"
+       class="not_specified"
+       id="circle255" />
+    <text
+       x="445"
+       y="590"
+       text-anchor="end"
+       class="label"
+       id="text257"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">obj</text>
+  </g>
+  <g
+     class="node callable_node"
+     id="g283"
+     transform="matrix(1.8481688,0,0,1.8481688,433.45652,1406.2664)">
+    <rect
+       x="531"
+       y="58"
+       width="180"
+       height="149.82597"
+       rx="8"
+       ry="8"
+       class="normal_fill"
+       id="rect261" />
+    <path
+       d="M 531,79 H 711 V 66 q 0,-8 -8,-8 H 539 q -8,0 -8,8 z"
+       class="header_fill_0"
+       id="path263" />
+    <path
+       d="M 531,79 H 711 V 66 q 0,-8 -8,-8 H 539 q -8,0 -8,8 z"
+       class="header_outline"
+       id="path265" />
+    <text
+       x="621"
+       y="73"
+       text-anchor="middle"
+       class="title"
+       id="text267"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">str.replace</text>
+    <rect
+       x="614"
+       y="186.68274"
+       width="14"
+       height="17"
+       class="id_bg_rect_0"
+       id="rect269" />
+    <text
+       x="621"
+       y="199.68274"
+       text-anchor="middle"
+       class="id_text"
+       id="text271"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">6</text>
+    <rect
+       x="531"
+       y="58"
+       width="180"
+       height="149.82597"
+       rx="8"
+       ry="8"
+       class="outline"
+       id="rect273" />
+    <circle
+       cx="529"
+       cy="91"
+       r="6"
+       class="other"
+       id="circle275"
+       style="fill:#01b50f;fill-opacity:1" />
+    <text
+       x="540"
+       y="95"
+       text-anchor="start"
+       class="label"
+       id="text277"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">string</text>
+    <circle
+       cx="713"
+       cy="171.43628"
+       r="6"
+       class="not_specified"
+       id="circle279"
+       style="fill:#01b50f;fill-opacity:1" />
+    <text
+       x="703"
+       y="175.43628"
+       text-anchor="end"
+       class="label"
+       id="text281"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">resulting_string</text>
+    <circle
+       cx="529"
+       cy="111.56091"
+       r="6"
+       class="other"
+       id="circle6210"
+       style="fill:#01b50f;fill-opacity:1" />
+    <text
+       x="540"
+       y="115.56091"
+       text-anchor="start"
+       class="label"
+       id="text6212"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">old</text>
+    <circle
+       cx="529"
+       cy="132.12183"
+       r="6"
+       class="other"
+       id="circle7609"
+       style="fill:#01b50f;fill-opacity:1" />
+    <text
+       x="540"
+       y="136.12183"
+       text-anchor="start"
+       class="label"
+       id="text7611"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">new</text>
+    <circle
+       cx="529"
+       cy="154.84705"
+       r="6"
+       class="other"
+       id="circle7613"
+       style="fill:#f00101;fill-opacity:1" />
+    <text
+       x="540"
+       y="158.84705"
+       text-anchor="start"
+       class="label"
+       id="text7615"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">count</text>
+  </g>
+  <path
+     id="rect1504"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;fill-opacity:1"
+     d="M 552.68848,622.32875 H 801.60007 V 755.71656 H 552.68848 c -12.26688,0 -22.14241,-9.87551 -22.14241,-22.1424 v -89.10301 c 0,-12.26689 9.87553,-22.1424 22.14241,-22.1424 z"
+     sodipodi:nodetypes="sccssss" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+     x="667.0249"
+     y="649.53992"
+     id="text1508"><tspan
+       sodipodi:role="line"
+       style="font-size:26.6667px;text-align:center;text-anchor:middle;stroke-width:0.999999"
+       x="667.0249"
+       y="649.53992"
+       id="tspan1506">for_loop</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 801.65061,661.2034 H 529.31232"
+     id="path1510"
+     sodipodi:nodetypes="cc" />
+  <circle
+     style="fill:#efdb00;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+     id="circle1514"
+     cx="531.02026"
+     cy="686.90674"
+     r="10.425684" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+     x="551.42627"
+     y="692.85986"
+     id="text4978"><tspan
+       sodipodi:role="line"
+       style="font-size:21.3333px;text-align:start;text-anchor:start;stroke-width:0.999999"
+       x="551.42627"
+       y="692.85986"
+       id="tspan4976">iterable</tspan></text>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:3"
+     id="rect10887"
+     width="37.121243"
+     height="33.73045"
+     x="645.27588"
+     y="714.05652" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+     x="662.77527"
+     y="738.68542"
+     id="text11095"><tspan
+       sodipodi:role="line"
+       style="font-size:21.3333px;text-align:center;text-anchor:middle;stroke-width:0.999999"
+       x="662.77527"
+       y="738.68542"
+       id="tspan11093">1</tspan></text>
+  <path
+     id="circle5249"
+     style="fill:#c6c7c7;stroke:#000000;stroke-width:3"
+     d="m 801.35626,697.33237 c -5.75796,0 -10.42568,-4.66774 -10.42568,-10.42568 0,-5.75795 4.66772,-10.42568 10.42568,-10.42569 z"
+     sodipodi:nodetypes="cscc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+     x="782.49719"
+     y="692.85986"
+     id="text5253"><tspan
+       sodipodi:role="line"
+       style="font-size:21.3333px;text-align:end;text-anchor:end;stroke-width:0.999999"
+       x="782.49719"
+       y="692.85986"
+       id="tspan5251">item</tspan></text>
+  <style
+     id="style2-3">
+rect.graph_bg {fill:rgb(34, 34, 42);}
+
+.checker_a {
+  fill: rgb(235, 235, 235);
+}
+
+.checker_b {
+  fill: rgb(20, 20, 20);
+}
+
+
+g.callable_node &gt; rect.normal_fill
+{
+  fill           : rgb(90, 90, 120);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.commented_out_fill
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_0
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_1
+{
+  fill           : rgb(1, 14, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_2
+{
+  fill           : rgb(157, 1, 66);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_3
+{
+  fill           : rgb(1, 92, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_4
+{
+  fill           : rgb(92, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_5
+{
+  fill           : rgb(140, 18, 18);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_6
+{
+  fill           : rgb(131, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_7
+{
+  fill           : rgb(11, 60, 55);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_8
+{
+  fill           : rgb(60, 36, 11);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_9
+{
+  fill           : rgb(9, 52, 10);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_10
+{
+  fill           : rgb(133, 124, 8);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+
+
+g.callable_node &gt; path.header_outline
+{
+  fill         : none;
+  fill-opacity : 0;
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.callable_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.callable_node &gt; text.title
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.id_bg_rect_0
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_1
+{
+  fill         : rgb(1, 14, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_2
+{
+  fill         : rgb(157, 1, 66);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_3
+{
+  fill         : rgb(1, 92, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_4
+{
+  fill         : rgb(92, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_5
+{
+  fill         : rgb(140, 18, 18);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_6
+{
+  fill         : rgb(131, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_7
+{
+  fill         : rgb(11, 60, 55);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_8
+{
+  fill         : rgb(60, 36, 11);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_9
+{
+  fill         : rgb(9, 52, 10);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_10
+{
+  fill         : rgb(133, 124, 8);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+
+
+g.callable_node &gt; text.id_text
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.outline
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+  fill-opacity : 0;
+}
+
+g.callable_node &gt; text.label
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; path.subparam_key
+{
+  fill: yellow;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.normal_subparam_key_hole
+{
+  fill: rgb(90, 90, 120);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.commented_out_subparam_key_hole
+{
+  fill: rgb(30, 130, 70);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; path.add_button
+{
+  fill: rgb(180, 255, 180);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; rect.subparam_move_button
+{
+  fill:grey;
+  stroke:white;
+  stroke-width:1px;
+}
+
+g.callable_node &gt; path.subparam_move_button
+{
+  fill:black;
+}
+
+g.callable_node &gt; g.unpacking_icon &gt; line
+{
+  stroke: rgb(255, 255, 0);
+  stroke-width:2px;
+}
+
+
+g.proxy_node &gt; rect.normal_header
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; rect.commented_out_header
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.proxy_node &gt; text.normal_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; text.commented_out_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; path.add_button
+{
+  fill: rgb(62, 142, 255);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.proxy_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.header_fill_stlib_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_stlib_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_builtin_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_builtin_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_capsule_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_capsule_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+
+g.operator_node &gt; rect.normal_body
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; rect.commented_out_body
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; text.normal_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.commented_out_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.normal_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.normal_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+g.operator_node &gt; text.commented_out_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.commented_out_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+
+line {stroke-width: 4;}
+
+g.node &gt; circle
+{stroke-width: 2;}
+
+g.node &gt; circle.hollow_socket
+{
+
+  fill         : rgb(0, 0, 0);
+  fill-opacity : 0;
+
+  stroke : rgb(238, 238, 238);
+
+}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+
+g.node &gt; circle.str
+{
+  fill   : rgb(1, 181, 15);
+  stroke : rgb(0, 0, 0);
+}
+
+line.str
+{stroke : rgb(1, 181, 15);}
+
+g.node &gt; circle.bool
+{
+  fill   : rgb(40, 40, 255);
+  stroke : rgb(0, 0, 0);
+}
+
+line.bool
+{stroke : rgb(40, 40, 255);}
+
+g.node &gt; circle.dict
+{
+  fill   : rgb(157, 95, 178);
+  stroke : rgb(0, 0, 0);
+}
+
+line.dict
+{stroke : rgb(157, 95, 178);}
+
+g.node &gt; circle.number
+{
+  fill   : rgb(220, 0, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.number
+{stroke : rgb(220, 0, 0);}
+
+g.node &gt; circle.list
+{
+  fill   : rgb(243, 0, 112);
+  stroke : rgb(0, 0, 0);
+}
+
+line.list
+{stroke : rgb(243, 0, 112);}
+
+g.node &gt; circle.tuple
+{
+  fill   : rgb(6, 186, 253);
+  stroke : rgb(0, 0, 0);
+}
+
+line.tuple
+{stroke : rgb(6, 186, 253);}
+
+g.node &gt; circle.iterable
+{
+  fill   : rgb(239, 219, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterable
+{stroke : rgb(239, 219, 0);}
+
+g.node &gt; circle.iterator
+{
+  fill   : rgb(246, 133, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterator
+{stroke : rgb(246, 133, 0);}
+
+g.node &gt; circle.not_specified
+{
+  fill   : rgb(200, 200, 200);
+  stroke : rgb(0, 0, 0);
+}
+
+line.not_specified
+{stroke : rgb(200, 200, 200);}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+g.text_block &gt; rect
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(255, 255, 255);
+  stroke-width : 2;
+}
+
+g.text_block &gt; text
+{font:bold 15px monospace;}
+
+
+
+g.file_not_found_shapes &gt; rect {
+  fill: rgb(15, 15, 15);
+  stroke: none;
+}
+
+g.file_not_found_shapes &gt; ellipse {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+  fill:none;
+}
+
+g.file_not_found_shapes &gt; line {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+}
+
+
+g.default_holder &gt; rect {
+  fill: rgb(200, 200, 200);
+  stroke:black;
+  stroke-width:1px;
+}
+
+g.default_holder &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; rect {
+  fill: rgb(255, 255, 255);
+}
+
+g.literal_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(255, 212, 59);
+}
+
+g.literal_entry &gt; rect {
+  fill: rgb(48, 105, 152);
+}
+
+g.int_float_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+g.int_float_entry &gt; rect.bg {
+  fill: rgb(47, 47, 60);
+}
+
+g.int_float_entry &gt; rect.range_bg {
+  fill: rgb(30, 130, 70);
+}
+
+g.check_button &gt; rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.check_button &gt; polyline {
+  fill:none;
+  stroke:black;
+  stroke-width:3px;
+}
+
+g.option_menu &gt; rect {
+  fill: rgb(47, 47, 60);
+}
+
+g.option_menu &gt; path {
+  fill: rgb(238, 238, 238);
+}
+
+g.option_menu &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.option_tray &gt; rect.not_selected_bg {
+  fill: rgb(47, 47, 60);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+g.option_tray &gt; rect.selected_bg {
+  fill: rgb(30, 130, 70);
+  stroke: white;
+  stroke-width:1px;
+}
+
+g.option_tray &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.color_button &gt; path.color_unit_checker_bg {
+  fill:url(#checker_pattern);
+}
+
+g.color_button &gt; path.color_unit {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+
+
+
+g.path_preview &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+
+g.text_display &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+g.literal_display &gt; rect {
+  fill: rgb(48, 105, 152);
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+g.sorting_button &gt; rect {
+  fill:white;
+}
+
+g.sorting_button &gt; text {
+  font: bold 13px sans-serif;
+  fill: black;
+}
+
+.thumb_bg {
+  fill: rgb(40, 40, 90);
+}
+</style>
+  <style
+     id="style27157">
+rect.graph_bg {fill:rgb(34, 34, 42);}
+
+.checker_a {
+  fill: rgb(235, 235, 235);
+}
+
+.checker_b {
+  fill: rgb(20, 20, 20);
+}
+
+
+g.callable_node &gt; rect.normal_fill
+{
+  fill           : rgb(90, 90, 120);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.commented_out_fill
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_0
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_1
+{
+  fill           : rgb(1, 14, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_2
+{
+  fill           : rgb(157, 1, 66);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_3
+{
+  fill           : rgb(1, 92, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_4
+{
+  fill           : rgb(92, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_5
+{
+  fill           : rgb(140, 18, 18);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_6
+{
+  fill           : rgb(131, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_7
+{
+  fill           : rgb(11, 60, 55);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_8
+{
+  fill           : rgb(60, 36, 11);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_9
+{
+  fill           : rgb(9, 52, 10);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_10
+{
+  fill           : rgb(133, 124, 8);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+
+
+g.callable_node &gt; path.header_outline
+{
+  fill         : none;
+  fill-opacity : 0;
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.callable_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.callable_node &gt; text.title
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.id_bg_rect_0
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_1
+{
+  fill         : rgb(1, 14, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_2
+{
+  fill         : rgb(157, 1, 66);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_3
+{
+  fill         : rgb(1, 92, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_4
+{
+  fill         : rgb(92, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_5
+{
+  fill         : rgb(140, 18, 18);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_6
+{
+  fill         : rgb(131, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_7
+{
+  fill         : rgb(11, 60, 55);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_8
+{
+  fill         : rgb(60, 36, 11);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_9
+{
+  fill         : rgb(9, 52, 10);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_10
+{
+  fill         : rgb(133, 124, 8);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+
+
+g.callable_node &gt; text.id_text
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.outline
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+  fill-opacity : 0;
+}
+
+g.callable_node &gt; text.label
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; path.subparam_key
+{
+  fill: yellow;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.normal_subparam_key_hole
+{
+  fill: rgb(90, 90, 120);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.commented_out_subparam_key_hole
+{
+  fill: rgb(30, 130, 70);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; path.add_button
+{
+  fill: rgb(180, 255, 180);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; rect.subparam_move_button
+{
+  fill:grey;
+  stroke:white;
+  stroke-width:1px;
+}
+
+g.callable_node &gt; path.subparam_move_button
+{
+  fill:black;
+}
+
+g.callable_node &gt; g.unpacking_icon &gt; line
+{
+  stroke: rgb(255, 255, 0);
+  stroke-width:2px;
+}
+
+
+g.proxy_node &gt; rect.normal_header
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; rect.commented_out_header
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.proxy_node &gt; text.normal_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; text.commented_out_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; path.add_button
+{
+  fill: rgb(62, 142, 255);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.proxy_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.header_fill_stlib_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_stlib_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_builtin_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_builtin_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_capsule_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_capsule_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+
+g.operator_node &gt; rect.normal_body
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; rect.commented_out_body
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; text.normal_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.commented_out_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.normal_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.normal_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+g.operator_node &gt; text.commented_out_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.commented_out_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+
+line {stroke-width: 4;}
+
+g.node &gt; circle
+{stroke-width: 2;}
+
+g.node &gt; circle.hollow_socket
+{
+
+  fill         : rgb(0, 0, 0);
+  fill-opacity : 0;
+
+  stroke : rgb(238, 238, 238);
+
+}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+
+g.node &gt; circle.str
+{
+  fill   : rgb(1, 181, 15);
+  stroke : rgb(0, 0, 0);
+}
+
+line.str
+{stroke : rgb(1, 181, 15);}
+
+g.node &gt; circle.bool
+{
+  fill   : rgb(40, 40, 255);
+  stroke : rgb(0, 0, 0);
+}
+
+line.bool
+{stroke : rgb(40, 40, 255);}
+
+g.node &gt; circle.dict
+{
+  fill   : rgb(157, 95, 178);
+  stroke : rgb(0, 0, 0);
+}
+
+line.dict
+{stroke : rgb(157, 95, 178);}
+
+g.node &gt; circle.number
+{
+  fill   : rgb(220, 0, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.number
+{stroke : rgb(220, 0, 0);}
+
+g.node &gt; circle.list
+{
+  fill   : rgb(243, 0, 112);
+  stroke : rgb(0, 0, 0);
+}
+
+line.list
+{stroke : rgb(243, 0, 112);}
+
+g.node &gt; circle.tuple
+{
+  fill   : rgb(6, 186, 253);
+  stroke : rgb(0, 0, 0);
+}
+
+line.tuple
+{stroke : rgb(6, 186, 253);}
+
+g.node &gt; circle.iterable
+{
+  fill   : rgb(239, 219, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterable
+{stroke : rgb(239, 219, 0);}
+
+g.node &gt; circle.iterator
+{
+  fill   : rgb(246, 133, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterator
+{stroke : rgb(246, 133, 0);}
+
+g.node &gt; circle.not_specified
+{
+  fill   : rgb(200, 200, 200);
+  stroke : rgb(0, 0, 0);
+}
+
+line.not_specified
+{stroke : rgb(200, 200, 200);}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+g.text_block &gt; rect
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(255, 255, 255);
+  stroke-width : 2;
+}
+
+g.text_block &gt; text
+{font:bold 15px monospace;}
+
+
+
+g.file_not_found_shapes &gt; rect {
+  fill: rgb(15, 15, 15);
+  stroke: none;
+}
+
+g.file_not_found_shapes &gt; ellipse {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+  fill:none;
+}
+
+g.file_not_found_shapes &gt; line {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+}
+
+
+g.default_holder &gt; rect {
+  fill: rgb(200, 200, 200);
+  stroke:black;
+  stroke-width:1px;
+}
+
+g.default_holder &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; rect {
+  fill: rgb(255, 255, 255);
+}
+
+g.literal_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(255, 212, 59);
+}
+
+g.literal_entry &gt; rect {
+  fill: rgb(48, 105, 152);
+}
+
+g.int_float_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+g.int_float_entry &gt; rect.bg {
+  fill: rgb(47, 47, 60);
+}
+
+g.int_float_entry &gt; rect.range_bg {
+  fill: rgb(30, 130, 70);
+}
+
+g.check_button &gt; rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.check_button &gt; polyline {
+  fill:none;
+  stroke:black;
+  stroke-width:3px;
+}
+
+g.option_menu &gt; rect {
+  fill: rgb(47, 47, 60);
+}
+
+g.option_menu &gt; path {
+  fill: rgb(238, 238, 238);
+}
+
+g.option_menu &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.option_tray &gt; rect.not_selected_bg {
+  fill: rgb(47, 47, 60);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+g.option_tray &gt; rect.selected_bg {
+  fill: rgb(30, 130, 70);
+  stroke: white;
+  stroke-width:1px;
+}
+
+g.option_tray &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.color_button &gt; path.color_unit_checker_bg {
+  fill:url(#checker_pattern);
+}
+
+g.color_button &gt; path.color_unit {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+
+
+
+g.path_preview &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+
+g.text_display &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+g.literal_display &gt; rect {
+  fill: rgb(48, 105, 152);
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+g.sorting_button &gt; rect {
+  fill:white;
+}
+
+g.sorting_button &gt; text {
+  font: bold 13px sans-serif;
+  fill: black;
+}
+
+.thumb_bg {
+  fill: rgb(40, 40, 90);
+}
+</style>
+  <path
+     style="fill:none;stroke:#01b50f;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2040.1475,1089.9831 142.9477,82.9032"
+     id="path43619"
+     sodipodi:nodetypes="cc" />
+  <g
+     class="node callable_node"
+     id="g2545"
+     transform="matrix(1.8481688,0,0,1.8481688,722.39299,878.915)">
+    <rect
+       x="531"
+       y="58"
+       width="180"
+       height="88"
+       rx="8"
+       ry="8"
+       class="normal_fill"
+       id="rect2523" />
+    <path
+       d="M 531,79 H 711 V 66 q 0,-8 -8,-8 H 539 q -8,0 -8,8 z"
+       class="header_fill_0"
+       id="path2525"
+       style="fill:#1e4382;fill-opacity:1" />
+    <path
+       d="M 531,79 H 711 V 66 q 0,-8 -8,-8 H 539 q -8,0 -8,8 z"
+       class="header_outline"
+       id="path2527" />
+    <text
+       x="621"
+       y="73"
+       text-anchor="middle"
+       class="title"
+       id="text2529"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">python_to_yaml</text>
+    <rect
+       x="614"
+       y="125"
+       width="14"
+       height="17"
+       class="id_bg_rect_0"
+       id="rect2531" />
+    <text
+       x="621"
+       y="138"
+       text-anchor="middle"
+       class="id_text"
+       id="text2533"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">7</text>
+    <rect
+       x="531"
+       y="58"
+       width="180"
+       height="88"
+       rx="8"
+       ry="8"
+       class="outline"
+       id="rect2535" />
+    <circle
+       cx="529"
+       cy="91"
+       r="6"
+       class="other"
+       id="circle2537"
+       style="fill:#c8c8c8;fill-opacity:1" />
+    <text
+       x="540"
+       y="95"
+       text-anchor="start"
+       class="label"
+       id="text2539"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">python_obj</text>
+    <circle
+       cx="713"
+       cy="113"
+       r="6"
+       class="not_specified"
+       id="circle2541"
+       style="fill:#01b50f;fill-opacity:1" />
+    <text
+       x="703"
+       y="117"
+       text-anchor="end"
+       class="label"
+       id="text2543"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">yaml_text</text>
+  </g>
+  <style
+     id="style23592">
+rect.graph_bg {fill:rgb(34, 34, 42);}
+
+.checker_a {
+  fill: rgb(235, 235, 235);
+}
+
+.checker_b {
+  fill: rgb(20, 20, 20);
+}
+
+
+g.callable_node &gt; rect.normal_fill
+{
+  fill           : rgb(90, 90, 120);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.commented_out_fill
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_0
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_1
+{
+  fill           : rgb(1, 14, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_2
+{
+  fill           : rgb(157, 1, 66);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_3
+{
+  fill           : rgb(1, 92, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_4
+{
+  fill           : rgb(92, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_5
+{
+  fill           : rgb(140, 18, 18);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_6
+{
+  fill           : rgb(131, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_7
+{
+  fill           : rgb(11, 60, 55);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_8
+{
+  fill           : rgb(60, 36, 11);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_9
+{
+  fill           : rgb(9, 52, 10);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_10
+{
+  fill           : rgb(133, 124, 8);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+
+
+g.callable_node &gt; path.header_outline
+{
+  fill         : none;
+  fill-opacity : 0;
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.callable_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.callable_node &gt; text.title
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.id_bg_rect_0
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_1
+{
+  fill         : rgb(1, 14, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_2
+{
+  fill         : rgb(157, 1, 66);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_3
+{
+  fill         : rgb(1, 92, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_4
+{
+  fill         : rgb(92, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_5
+{
+  fill         : rgb(140, 18, 18);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_6
+{
+  fill         : rgb(131, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_7
+{
+  fill         : rgb(11, 60, 55);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_8
+{
+  fill         : rgb(60, 36, 11);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_9
+{
+  fill         : rgb(9, 52, 10);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_10
+{
+  fill         : rgb(133, 124, 8);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+
+
+g.callable_node &gt; text.id_text
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.outline
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+  fill-opacity : 0;
+}
+
+g.callable_node &gt; text.label
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; path.subparam_key
+{
+  fill: yellow;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.normal_subparam_key_hole
+{
+  fill: rgb(90, 90, 120);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.commented_out_subparam_key_hole
+{
+  fill: rgb(30, 130, 70);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; path.add_button
+{
+  fill: rgb(180, 255, 180);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; rect.subparam_move_button
+{
+  fill:grey;
+  stroke:white;
+  stroke-width:1px;
+}
+
+g.callable_node &gt; path.subparam_move_button
+{
+  fill:black;
+}
+
+g.callable_node &gt; g.unpacking_icon &gt; line
+{
+  stroke: rgb(255, 255, 0);
+  stroke-width:2px;
+}
+
+
+g.proxy_node &gt; rect.normal_header
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; rect.commented_out_header
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.proxy_node &gt; text.normal_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; text.commented_out_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; path.add_button
+{
+  fill: rgb(62, 142, 255);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.proxy_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.header_fill_stlib_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_stlib_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_builtin_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_builtin_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_capsule_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_capsule_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+
+g.operator_node &gt; rect.normal_body
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; rect.commented_out_body
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; text.normal_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.commented_out_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.normal_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.normal_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+g.operator_node &gt; text.commented_out_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.commented_out_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+
+line {stroke-width: 4;}
+
+g.node &gt; circle
+{stroke-width: 2;}
+
+g.node &gt; circle.hollow_socket
+{
+
+  fill         : rgb(0, 0, 0);
+  fill-opacity : 0;
+
+  stroke : rgb(238, 238, 238);
+
+}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+
+g.node &gt; circle.str
+{
+  fill   : rgb(1, 181, 15);
+  stroke : rgb(0, 0, 0);
+}
+
+line.str
+{stroke : rgb(1, 181, 15);}
+
+g.node &gt; circle.bool
+{
+  fill   : rgb(40, 40, 255);
+  stroke : rgb(0, 0, 0);
+}
+
+line.bool
+{stroke : rgb(40, 40, 255);}
+
+g.node &gt; circle.dict
+{
+  fill   : rgb(157, 95, 178);
+  stroke : rgb(0, 0, 0);
+}
+
+line.dict
+{stroke : rgb(157, 95, 178);}
+
+g.node &gt; circle.number
+{
+  fill   : rgb(220, 0, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.number
+{stroke : rgb(220, 0, 0);}
+
+g.node &gt; circle.list
+{
+  fill   : rgb(243, 0, 112);
+  stroke : rgb(0, 0, 0);
+}
+
+line.list
+{stroke : rgb(243, 0, 112);}
+
+g.node &gt; circle.tuple
+{
+  fill   : rgb(6, 186, 253);
+  stroke : rgb(0, 0, 0);
+}
+
+line.tuple
+{stroke : rgb(6, 186, 253);}
+
+g.node &gt; circle.iterable
+{
+  fill   : rgb(239, 219, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterable
+{stroke : rgb(239, 219, 0);}
+
+g.node &gt; circle.iterator
+{
+  fill   : rgb(246, 133, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterator
+{stroke : rgb(246, 133, 0);}
+
+g.node &gt; circle.not_specified
+{
+  fill   : rgb(200, 200, 200);
+  stroke : rgb(0, 0, 0);
+}
+
+line.not_specified
+{stroke : rgb(200, 200, 200);}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+g.text_block &gt; rect
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(255, 255, 255);
+  stroke-width : 2;
+}
+
+g.text_block &gt; text
+{font:bold 15px monospace;}
+
+
+
+g.file_not_found_shapes &gt; rect {
+  fill: rgb(15, 15, 15);
+  stroke: none;
+}
+
+g.file_not_found_shapes &gt; ellipse {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+  fill:none;
+}
+
+g.file_not_found_shapes &gt; line {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+}
+
+
+g.default_holder &gt; rect {
+  fill: rgb(200, 200, 200);
+  stroke:black;
+  stroke-width:1px;
+}
+
+g.default_holder &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; rect {
+  fill: rgb(255, 255, 255);
+}
+
+g.literal_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(255, 212, 59);
+}
+
+g.literal_entry &gt; rect {
+  fill: rgb(48, 105, 152);
+}
+
+g.int_float_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+g.int_float_entry &gt; rect.bg {
+  fill: rgb(47, 47, 60);
+}
+
+g.int_float_entry &gt; rect.range_bg {
+  fill: rgb(30, 130, 70);
+}
+
+g.check_button &gt; rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.check_button &gt; polyline {
+  fill:none;
+  stroke:black;
+  stroke-width:3px;
+}
+
+g.option_menu &gt; rect {
+  fill: rgb(47, 47, 60);
+}
+
+g.option_menu &gt; path {
+  fill: rgb(238, 238, 238);
+}
+
+g.option_menu &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.option_tray &gt; rect.not_selected_bg {
+  fill: rgb(47, 47, 60);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+g.option_tray &gt; rect.selected_bg {
+  fill: rgb(30, 130, 70);
+  stroke: white;
+  stroke-width:1px;
+}
+
+g.option_tray &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.color_button &gt; path.color_unit_checker_bg {
+  fill:url(#checker_pattern);
+}
+
+g.color_button &gt; path.color_unit {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+
+
+
+g.path_preview &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+
+g.text_display &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+g.literal_display &gt; rect {
+  fill: rgb(48, 105, 152);
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+g.sorting_button &gt; rect {
+  fill:white;
+}
+
+g.sorting_button &gt; text {
+  font: bold 13px sans-serif;
+  fill: black;
+}
+
+.thumb_bg {
+  fill: rgb(40, 40, 90);
+}
+</style>
+  <g
+     class="node proxy_node"
+     id="g23623"
+     transform="matrix(1.9203554,0,0,1.9203554,885.54395,1557.3081)">
+    <rect
+       x="20"
+       y="94"
+       width="169"
+       height="21"
+       class="normal_header"
+       id="rect23605" />
+    <text
+       x="63"
+       y="110"
+       text-anchor="middle"
+       class="normal_label"
+       id="text23607"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">5: output</text>
+    <circle
+       cx="18"
+       cy="104"
+       r="6"
+       class="hollow_socket"
+       id="circle23609" />
+    <circle
+       cx="191"
+       cy="104"
+       r="6"
+       class="number"
+       id="circle23611" />
+    <g
+       class="int_float_entry"
+       id="g23619">
+      <rect
+         x="18"
+         y="117"
+         width="155"
+         height="17"
+         class="bg"
+         id="rect23613" />
+      <text
+         x="18"
+         y="131"
+         text-anchor="start"
+         id="text23615"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">&lt;&lt; &lt;-1</text>
+      <text
+         x="173"
+         y="131"
+         text-anchor="end"
+         id="text23617"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">&gt; &gt;&gt;</text>
+    </g>
+    <path
+       d="m 189.29478,129.84528 -2.66775,2.98045 -4.47068,-4.00163 -4.00163,4.47068 -2.98045,-2.66775 4.00163,-4.47068 -4.47068,-4.00163 2.66775,-2.98045 4.47068,4.00163 4.00163,-4.47068 2.98045,2.66775 -4.00163,4.47068 z"
+       class="remove_button"
+       id="path23621" />
+  </g>
+  <g
+     class="node proxy_node"
+     id="g23641"
+     transform="matrix(1.9203554,0,0,1.9203554,861.24942,1515.3308)">
+    <rect
+       x="32"
+       y="13"
+       width="169"
+       height="21"
+       class="normal_header"
+       id="rect23625" />
+    <text
+       x="74"
+       y="29"
+       text-anchor="middle"
+       class="normal_label"
+       id="text23627"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">3: output</text>
+    <circle
+       cx="30"
+       cy="23"
+       r="6"
+       class="hollow_socket"
+       id="circle23629" />
+    <circle
+       cx="203"
+       cy="23"
+       r="6"
+       class="str"
+       id="circle23631" />
+    <g
+       class="string_entry"
+       id="g23637">
+      <rect
+         x="30"
+         y="36"
+         width="155"
+         height="17"
+         id="rect23633" />
+      <text
+         x="30"
+         y="50"
+         text-anchor="start"
+         id="text23635"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">.json</text>
+    </g>
+    <path
+       d="m 201.29478,48.845278 -2.66775,2.980453 -4.47068,-4.001629 -4.00163,4.470679 -2.98045,-2.667752 4.00163,-4.470679 -4.47068,-4.001628 2.66775,-2.980453 4.47068,4.001629 4.00163,-4.470679 2.98045,2.667752 -4.00163,4.470679 z"
+       class="remove_button"
+       id="path23639" />
+  </g>
+  <g
+     class="node proxy_node"
+     id="g23659"
+     transform="matrix(1.9203554,0,0,1.9203554,403.83455,1609.7481)">
+    <rect
+       x="271"
+       y="12"
+       width="169"
+       height="21"
+       class="normal_header"
+       id="rect23643" />
+    <text
+       x="314"
+       y="28"
+       text-anchor="middle"
+       class="normal_label"
+       id="text23645"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">4: output</text>
+    <circle
+       cx="269"
+       cy="22"
+       r="6"
+       class="hollow_socket"
+       id="circle23647" />
+    <circle
+       cx="442"
+       cy="22"
+       r="6"
+       class="str"
+       id="circle23649" />
+    <g
+       class="string_entry"
+       id="g23655">
+      <rect
+         x="269"
+         y="35"
+         width="155"
+         height="17"
+         id="rect23651" />
+      <text
+         x="269"
+         y="49"
+         text-anchor="start"
+         id="text23653"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">.yaml</text>
+    </g>
+    <path
+       d="m 440.29478,47.845278 -2.66775,2.980453 -4.47068,-4.001629 -4.00163,4.470679 -2.98045,-2.667752 4.00163,-4.470679 -4.47068,-4.001628 2.66775,-2.980453 4.47068,4.001629 4.00163,-4.470679 2.98045,2.667752 -4.00163,4.470679 z"
+       class="remove_button"
+       id="path23657" />
+  </g>
+  <style
+     id="style35364">
+rect.graph_bg {fill:rgb(34, 34, 42);}
+
+.checker_a {
+  fill: rgb(235, 235, 235);
+}
+
+.checker_b {
+  fill: rgb(20, 20, 20);
+}
+
+
+g.callable_node &gt; rect.normal_fill
+{
+  fill           : rgb(90, 90, 120);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.commented_out_fill
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_0
+{
+  fill           : rgb(30, 130, 70);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_1
+{
+  fill           : rgb(1, 14, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_2
+{
+  fill           : rgb(157, 1, 66);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_3
+{
+  fill           : rgb(1, 92, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_4
+{
+  fill           : rgb(92, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_5
+{
+  fill           : rgb(140, 18, 18);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_6
+{
+  fill           : rgb(131, 1, 157);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_7
+{
+  fill           : rgb(11, 60, 55);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_8
+{
+  fill           : rgb(60, 36, 11);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_9
+{
+  fill           : rgb(9, 52, 10);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; path.header_fill_10
+{
+  fill           : rgb(133, 124, 8);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+
+
+g.callable_node &gt; path.header_outline
+{
+  fill         : none;
+  fill-opacity : 0;
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.callable_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.callable_node &gt; text.title
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.id_bg_rect_0
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_1
+{
+  fill         : rgb(1, 14, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_2
+{
+  fill         : rgb(157, 1, 66);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_3
+{
+  fill         : rgb(1, 92, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_4
+{
+  fill         : rgb(92, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_5
+{
+  fill         : rgb(140, 18, 18);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_6
+{
+  fill         : rgb(131, 1, 157);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_7
+{
+  fill         : rgb(11, 60, 55);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_8
+{
+  fill         : rgb(60, 36, 11);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_9
+{
+  fill         : rgb(9, 52, 10);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+g.callable_node &gt; rect.id_bg_rect_10
+{
+  fill         : rgb(133, 124, 8);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 1;
+}
+
+
+
+g.callable_node &gt; text.id_text
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; rect.outline
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+  fill-opacity : 0;
+}
+
+g.callable_node &gt; text.label
+{fill : rgb(248, 248, 248);}
+
+g.callable_node &gt; path.subparam_key
+{
+  fill: yellow;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.normal_subparam_key_hole
+{
+  fill: rgb(90, 90, 120);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; circle.commented_out_subparam_key_hole
+{
+  fill: rgb(30, 130, 70);
+  stroke: black;
+  stroke-width: 1px;
+}
+
+g.callable_node &gt; path.add_button
+{
+  fill: rgb(180, 255, 180);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; rect.subparam_move_button
+{
+  fill:grey;
+  stroke:white;
+  stroke-width:1px;
+}
+
+g.callable_node &gt; path.subparam_move_button
+{
+  fill:black;
+}
+
+g.callable_node &gt; g.unpacking_icon &gt; line
+{
+  stroke: rgb(255, 255, 0);
+  stroke-width:2px;
+}
+
+
+g.proxy_node &gt; rect.normal_header
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; rect.commented_out_header
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.proxy_node &gt; text
+{
+  font: bold 13px sans-serif;
+}
+
+g.proxy_node &gt; text.normal_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; text.commented_out_label
+{fill : rgb(248, 248, 248);}
+
+g.proxy_node &gt; path.add_button
+{
+  fill: rgb(62, 142, 255);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.proxy_node &gt; path.remove_button
+{
+  fill: rgb(204, 0, 0);
+  stroke: rgb(16, 16, 16);
+  stroke-width: 2px;
+}
+
+g.callable_node &gt; path.header_fill_stlib_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_stlib_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_builtin_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_builtin_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+g.callable_node &gt; path.header_fill_capsule_node
+{
+  fill           : rgb(20, 20, 25);
+  stroke         : rgb(0, 0, 0);
+  stroke-width   : 2;
+  stroke-opacity : 0;
+}
+
+g.callable_node &gt; rect.id_bg_rect_capsule_node
+{
+  fill        : rgb(20, 20, 25);
+  stroke      : rgb(0, 0, 0);
+  stroke-width: 1;
+}
+
+
+g.operator_node &gt; rect.normal_body
+{
+  fill         : rgb(90, 90, 120);
+  stroke       : rgb(0, 0, 0);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; rect.commented_out_body
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(235, 235, 235);
+  stroke-width : 2;
+}
+
+g.operator_node &gt; text.normal_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.commented_out_small_text
+{
+  font: bold 13px sans-serif;
+  fill: rgb(248, 248, 248);
+}
+
+g.operator_node &gt; text.normal_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.normal_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+g.operator_node &gt; text.commented_out_big_ab_text
+{
+  font: bold 60px sans-serif;
+  fill: rgb(200, 200, 200);
+}
+
+g.operator_node &gt; text.commented_out_big_op_text
+{
+  font: bold 80px sans-serif;
+  fill: rgb(200, 20, 20);
+}
+
+
+line {stroke-width: 4;}
+
+g.node &gt; circle
+{stroke-width: 2;}
+
+g.node &gt; circle.hollow_socket
+{
+
+  fill         : rgb(0, 0, 0);
+  fill-opacity : 0;
+
+  stroke : rgb(238, 238, 238);
+
+}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+
+g.node &gt; circle.str
+{
+  fill   : rgb(1, 181, 15);
+  stroke : rgb(0, 0, 0);
+}
+
+line.str
+{stroke : rgb(1, 181, 15);}
+
+g.node &gt; circle.bool
+{
+  fill   : rgb(40, 40, 255);
+  stroke : rgb(0, 0, 0);
+}
+
+line.bool
+{stroke : rgb(40, 40, 255);}
+
+g.node &gt; circle.dict
+{
+  fill   : rgb(157, 95, 178);
+  stroke : rgb(0, 0, 0);
+}
+
+line.dict
+{stroke : rgb(157, 95, 178);}
+
+g.node &gt; circle.number
+{
+  fill   : rgb(220, 0, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.number
+{stroke : rgb(220, 0, 0);}
+
+g.node &gt; circle.list
+{
+  fill   : rgb(243, 0, 112);
+  stroke : rgb(0, 0, 0);
+}
+
+line.list
+{stroke : rgb(243, 0, 112);}
+
+g.node &gt; circle.tuple
+{
+  fill   : rgb(6, 186, 253);
+  stroke : rgb(0, 0, 0);
+}
+
+line.tuple
+{stroke : rgb(6, 186, 253);}
+
+g.node &gt; circle.iterable
+{
+  fill   : rgb(239, 219, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterable
+{stroke : rgb(239, 219, 0);}
+
+g.node &gt; circle.iterator
+{
+  fill   : rgb(246, 133, 0);
+  stroke : rgb(0, 0, 0);
+}
+
+line.iterator
+{stroke : rgb(246, 133, 0);}
+
+g.node &gt; circle.not_specified
+{
+  fill   : rgb(200, 200, 200);
+  stroke : rgb(0, 0, 0);
+}
+
+line.not_specified
+{stroke : rgb(200, 200, 200);}
+
+g.node &gt; circle.other
+{
+  fill   : rgb(255, 149, 148);
+  stroke : rgb(0, 0, 0);
+}
+
+line.other
+{stroke : rgb(255, 149, 148);}
+
+g.text_block &gt; rect
+{
+  fill         : rgb(30, 130, 70);
+  stroke       : rgb(255, 255, 255);
+  stroke-width : 2;
+}
+
+g.text_block &gt; text
+{font:bold 15px monospace;}
+
+
+
+g.file_not_found_shapes &gt; rect {
+  fill: rgb(15, 15, 15);
+  stroke: none;
+}
+
+g.file_not_found_shapes &gt; ellipse {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+  fill:none;
+}
+
+g.file_not_found_shapes &gt; line {
+  stroke: rgb(200, 0, 0);
+  stroke-width: 15px;
+}
+
+
+g.default_holder &gt; rect {
+  fill: rgb(200, 200, 200);
+  stroke:black;
+  stroke-width:1px;
+}
+
+g.default_holder &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(35, 35, 35);
+}
+
+g.string_entry &gt; rect {
+  fill: rgb(255, 255, 255);
+}
+
+g.literal_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(255, 212, 59);
+}
+
+g.literal_entry &gt; rect {
+  fill: rgb(48, 105, 152);
+}
+
+g.int_float_entry &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+g.int_float_entry &gt; rect.bg {
+  fill: rgb(47, 47, 60);
+}
+
+g.int_float_entry &gt; rect.range_bg {
+  fill: rgb(30, 130, 70);
+}
+
+g.check_button &gt; rect {
+  fill: white;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+g.check_button &gt; polyline {
+  fill:none;
+  stroke:black;
+  stroke-width:3px;
+}
+
+g.option_menu &gt; rect {
+  fill: rgb(47, 47, 60);
+}
+
+g.option_menu &gt; path {
+  fill: rgb(238, 238, 238);
+}
+
+g.option_menu &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.option_tray &gt; rect.not_selected_bg {
+  fill: rgb(47, 47, 60);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+g.option_tray &gt; rect.selected_bg {
+  fill: rgb(30, 130, 70);
+  stroke: white;
+  stroke-width:1px;
+}
+
+g.option_tray &gt; text {
+  font: bold 13px sans-serif;
+  fill: rgb(238, 238, 238);
+}
+
+
+
+g.color_button &gt; path.color_unit_checker_bg {
+  fill:url(#checker_pattern);
+}
+
+g.color_button &gt; path.color_unit {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+
+
+
+
+g.path_preview &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+
+g.text_display &gt; rect {
+  fill:grey;
+  stroke: silver;
+  stroke-width:1px;
+}
+
+g.literal_display &gt; rect {
+  fill: rgb(48, 105, 152);
+  stroke: silver;
+  stroke-width:1px;
+}
+
+
+g.sorting_button &gt; rect {
+  fill:white;
+}
+
+g.sorting_button &gt; text {
+  font: bold 13px sans-serif;
+  fill: black;
+}
+
+.thumb_bg {
+  fill: rgb(40, 40, 90);
+}
+</style>
+  <g
+     class="node callable_node"
+     id="g35481"
+     transform="matrix(2.0325623,0,0,2.0325623,2146.658,1046.254)">
+    <rect
+       x="20"
+       y="12"
+       width="180"
+       height="519"
+       rx="8"
+       ry="8"
+       class="normal_fill"
+       id="rect35377" />
+    <path
+       d="M 20,33 H 200 V 20 q 0,-8 -8,-8 H 28 q -8,0 -8,8 z"
+       class="header_fill_capsule_node"
+       id="path35379" />
+    <path
+       d="M 20,33 H 200 V 20 q 0,-8 -8,-8 H 28 q -8,0 -8,8 z"
+       class="header_outline"
+       id="path35381" />
+    <text
+       x="110"
+       y="27"
+       text-anchor="middle"
+       class="title"
+       id="text35383"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">append_to_text_file</text>
+    <rect
+       x="102"
+       y="510"
+       width="17"
+       height="17"
+       class="id_bg_rect_capsule_node"
+       id="rect35385" />
+    <text
+       x="110"
+       y="523"
+       text-anchor="middle"
+       class="id_text"
+       id="text35387"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">8</text>
+    <rect
+       x="20"
+       y="12"
+       width="180"
+       height="519"
+       rx="8"
+       ry="8"
+       class="outline"
+       id="rect35389" />
+    <circle
+       cx="18"
+       cy="63"
+       r="6"
+       class="str"
+       id="circle35391" />
+    <circle
+       cx="18"
+       cy="228"
+       r="6"
+       class="str"
+       id="circle35393" />
+    <circle
+       cx="18"
+       cy="434"
+       r="6"
+       class="str"
+       id="circle35395" />
+    <circle
+       cx="18"
+       cy="474"
+       r="6"
+       class="other"
+       id="circle35397" />
+    <text
+       x="29"
+       y="50"
+       text-anchor="start"
+       class="label"
+       id="text35399"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">text</text>
+    <text
+       x="29"
+       y="215"
+       text-anchor="start"
+       class="label"
+       id="text35401"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">filepath</text>
+    <text
+       x="29"
+       y="421"
+       text-anchor="start"
+       class="label"
+       id="text35403"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">encoding</text>
+    <text
+       x="29"
+       y="461"
+       text-anchor="start"
+       class="label"
+       id="text35405"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">errors</text>
+    <g
+       class="text_display"
+       id="g35425">
+      <rect
+         x="35"
+         y="55"
+         width="153"
+         height="140"
+         id="rect35407" />
+      <path
+         d="m 35,55 m 5,3 h 13 q -4,4 0,8 4,4 0,8 H 40 q 4,-4 0,-8 -4,-4 0,-8 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2"
+         id="path35409" />
+      <path
+         d="m 35,55 m 6,7 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35411" />
+      <path
+         d="m 35,55 m 8,11 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35413" />
+      <path
+         d="m 35,55 m 9,15 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35415" />
+      <path
+         d="m 35,55 m 11,21 2,-7 5,3 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2px;stroke-linejoin:round"
+         id="path35417" />
+      <path
+         d="m 35,55 m 13,14 5,3 6,-6 -5,-3 z"
+         style="fill:#ffff00;stroke:#000000;stroke-width:2px;stroke-linejoin:round"
+         id="path35419" />
+      <path
+         d="m 35,55 m 19,8 5,3 4,-4 -5,-3 z"
+         style="fill:#ff0000;stroke:#000000;stroke-width:2px;stroke-linejoin:round"
+         id="path35421" />
+      <rect
+         style="fill:#4d4d5a"
+         x="35"
+         y="75"
+         width="153"
+         height="120"
+         id="rect35423" />
+    </g>
+    <g
+       class="path_preview"
+       id="g35461">
+      <rect
+         x="35"
+         y="220"
+         width="153"
+         height="181"
+         id="rect35427" />
+      <path
+         d="m 36,221 m 2,1 m 0,3 q 0,-3 3,-3 h 3 q 3,0 3,3 v 12 q 0,3 -3,3 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path35429" />
+      <path
+         d="m 36,221 m 2,1 m 0,10 v -3 q 0,-3 3,-3 h 11 q 3,0 3,3 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path35431" />
+      <path
+         d="m 36,221 m 2,1 m 0,10 v 5 q 0,3 3,3 h 11 q 3,0 3,-3 v -9 q 0,3 -3,3 h -4 q -2,0 -2,2 0,2 -2,2 h -3 q -3,0 -3,-3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2"
+         id="path35433" />
+      <path
+         d="m 57,221 m 5,3 h 13 q -4,4 0,8 4,4 0,8 H 62 q 4,-4 0,-8 -4,-4 0,-8 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:2"
+         id="path35435" />
+      <path
+         d="m 57,221 m 6,7 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35437" />
+      <path
+         d="m 57,221 m 8,11 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35439" />
+      <path
+         d="m 57,221 m 9,15 h 8 z"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="path35441" />
+      <path
+         d="m 167,221 m 2,1 m 0,6 v -3 q 0,-3 3,-3 h 8 q 3,0 3,3 v 4 h 3 l -5,4 -5,-4 h 3 v -4 h -6 v 3 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2;stroke-linejoin:round"
+         id="path35443" />
+      <path
+         d="m 167,221 m 0,1 m 0,11 5,-4 5,4 h -3 v 4 h 6 v -3 h 4 v 3 q 0,3 -3,3 h -8 q -3,0 -3,-3 v -4 z"
+         style="fill:#1e8246;stroke:#000000;stroke-width:2;stroke-linejoin:round"
+         id="path35445" />
+      <g
+         id="g35459">
+        <g
+           class="file_not_found_shapes"
+           id="g35453">
+          <rect
+             x="35"
+             y="241"
+             width="153"
+             height="141"
+             id="rect35447" />
+          <ellipse
+             cx="111"
+             cy="311"
+             rx="68"
+             ry="62"
+             id="ellipse35449" />
+          <line
+             x1="65"
+             y1="352"
+             x2="158"
+             y2="271"
+             id="line35451" />
+        </g>
+        <g
+           id="g35457">
+          <text
+             x="187"
+             y="397"
+             text-anchor="end"
+             id="text35455">.</text>
+        </g>
+      </g>
+    </g>
+    <g
+       class="string_entry"
+       id="g35467">
+      <rect
+         x="34"
+         y="425"
+         width="155"
+         height="17"
+         id="rect35463" />
+      <text
+         x="34"
+         y="439"
+         text-anchor="start"
+         id="text35465"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">utf-8</text>
+    </g>
+    <g
+       class="option_menu"
+       id="g35475">
+      <rect
+         x="35"
+         y="466"
+         width="142"
+         height="17"
+         id="rect35469" />
+      <path
+         d="m 166,472 h 9 l -5,7 z"
+         id="path35471" />
+      <text
+         x="35"
+         y="480"
+         text-anchor="start"
+         id="text35473"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">None</text>
+    </g>
+    <circle
+       cx="202"
+       cy="498"
+       r="6"
+       class="not_specified"
+       id="circle35477" />
+    <text
+       x="192"
+       y="502"
+       text-anchor="end"
+       class="label"
+       id="text35479"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">output</text>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="225.07439"
-   height="141.93944"
+   height="125.74981"
    version="1.1"
    id="svg103"
    sodipodi:docname="str_strip_node.svg"
@@ -21,9 +21,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.8258427"
-     inkscape:cx="288.19048"
-     inkscape:cy="104.7415"
+     inkscape:zoom="2.6124696"
+     inkscape:cx="112.53719"
+     inkscape:cy="71.00561"
      inkscape:window-width="1366"
      inkscape:window-height="719"
      inkscape:window-x="0"
@@ -731,7 +731,7 @@ g.sorting_button &gt; text {
      x="0"
      y="0"
      width="225.07439"
-     height="141.93944"
+     height="125.74981"
      class="graph_bg"
      id="rect4" />
   <pattern
@@ -778,7 +778,7 @@ g.sorting_button &gt; text {
        x="20"
        y="130"
        width="180"
-       height="109"
+       height="93.138519"
        rx="8"
        ry="8"
        class="normal_fill"
@@ -800,14 +800,14 @@ g.sorting_button &gt; text {
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13px;line-height:normal;font-family:sans-serif">str.strip</text>
     <rect
        x="102"
-       y="218"
+       y="202"
        width="17"
        height="17"
        class="id_bg_rect_0"
        id="rect25" />
     <text
        x="110"
-       y="231"
+       y="215"
        text-anchor="middle"
        class="id_text"
        id="text27"
@@ -816,7 +816,7 @@ g.sorting_button &gt; text {
        x="20"
        y="130"
        width="180"
-       height="109"
+       height="93.138527"
        rx="8"
        ry="8"
        class="outline"
@@ -837,14 +837,14 @@ g.sorting_button &gt; text {
        style="fill:#1cd335;fill-opacity:1;stroke:#070506;stroke-opacity:1" />
     <circle
        cx="202"
-       cy="206"
+       cy="188"
        r="6"
        class="other"
        id="circle37"
        style="fill:#1cd335;fill-opacity:1" />
     <text
        x="192"
-       y="210"
+       y="192"
        text-anchor="end"
        class="label"
        id="text39"

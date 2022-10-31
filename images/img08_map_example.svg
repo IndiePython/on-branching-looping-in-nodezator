@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1237" height="603">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1237" height="555">
 	<style>
 rect.graph_bg {fill:rgb(34, 34, 42);}
 
@@ -696,48 +696,18 @@ g.sorting_button > text {
   fill: rgb(40, 40, 90);
 }
 </style>
-	<rect x="0" y="0" width="1237" height="603" class="graph_bg"/>
+	<rect x="0" y="0" width="1237" height="555" class="graph_bg"/>
 	<pattern x="0" y="0" width="10" height="10" id="checker_pattern" patternUnits="userSpaceOnUse">
 		<rect x="0" y="0" width="5" height="5" class="checker_a"/>
 		<rect x="5" y="5" width="5" height="5" class="checker_a"/>
 		<rect x="0" y="5" width="5" height="5" class="checker_b"/>
 		<rect x="5" y="0" width="5" height="5" class="checker_b"/>
 	</pattern>
-	<line x1="608" y1="417" x2="781" y2="312" class="not_specified"/>
 	<line x1="191" y1="106" x2="224" y2="110" class="str"/>
 	<line x1="965" y1="356" x2="1019" y2="313" class="iterator"/>
 	<line x1="408" y1="132" x2="441" y2="98" class="other"/>
 	<line x1="625" y1="160" x2="781" y2="271" class="not_specified"/>
-	<g class="node proxy_node">
-		<rect x="437" y="407" width="169" height="21" class="normal_header"/>
-		<text x="480" y="423" text-anchor="middle" class="normal_label">0 : output</text>
-		<circle cx="435" cy="417" r="6" class="hollow_socket"/>
-		<circle cx="608" cy="417" r="6" class="not_specified"/>
-		<g class="literal_display">
-			<rect x="436" y="431" width="153" height="161"/>
-			<path d="M436 431m5 3 l13 0 q-4 4 0 8 q4 4 0 8 l-13 0 q4 -4 0 -8 q-4 -4 0 -8 Z" style="fill:white;stroke:black;stroke-width:2;"/>
-			<path d="M436 431m6 7 l8 0 Z" style="fill:none;stroke:black;stroke-width:2;"/>
-			<path d="M436 431m8 11 l8 0 Z" style="fill:none;stroke:black;stroke-width:2;"/>
-			<path d="M436 431m9 15 l8 0 Z" style="fill:none;stroke:black;stroke-width:2;"/>
-			<path d="M436 431m11 21l2 -7l5 3 Z" style="fill:white;stroke:black;stroke-width:2px;stroke-linejoin:round;"/>
-			<path d="M436 431m13 14l5 3l6 -6-5 -3l-6 6 Z" style="fill:yellow;stroke:black;stroke-width:2px;stroke-linejoin:round;"/>
-			<path d="M436 431m19 8l5 3l4 -4l-5 -3 Z" style="fill:red;stroke:black;stroke-width:2px;stroke-linejoin:round;"/>
-			<rect style="fill:rgb(35, 35, 35);" x="436" y="451" width="153" height="141"/>
-			<text x="440" y="471" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);">[</text>
-			<text x="450" y="471" text-anchor="start" style="font:bold 13px monospace;fill:rgb(215, 215, 0);">' string a'</text>
-			<text x="560" y="471" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);">…</text>
-			<text x="440" y="491" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);"> </text>
-			<text x="450" y="491" text-anchor="start" style="font:bold 13px monospace;fill:rgb(215, 215, 0);">'string b '</text>
-			<text x="560" y="491" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);">…</text>
-			<text x="440" y="511" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);"> </text>
-			<text x="450" y="511" text-anchor="start" style="font:bold 13px monospace;fill:rgb(215, 215, 0);">'string_c'</text>
-			<text x="550" y="511" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);">,</text>
-			<text x="440" y="531" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);"> </text>
-			<text x="450" y="531" text-anchor="start" style="font:bold 13px monospace;fill:rgb(215, 215, 0);">' string_d'</text>
-			<text x="560" y="531" text-anchor="start" style="font:bold 13px monospace;fill:rgb(235, 235, 235);">…</text>
-		</g>
-		<path d="M606.2947814071393 442.8452781722594 L603.6270291605302 445.8257308141768 L599.1563501976542 441.82410244426325 L595.1547218277406 446.29478140713934 L592.1742691858232 443.62702916053024 L596.1758975557368 439.15635019765415 L591.7052185928607 435.1547218277406 L594.3729708394698 432.1742691858232 L598.8436498023458 436.17589755573675 L602.8452781722594 431.70521859286066 L605.8257308141768 434.37297083946976 L601.8241024442632 438.84364980234585  Z" class="remove_button"/>
-	</g>
+	<line x1="627" y1="510" x2="781" y2="312" class="list"/>
 	<g class="node callable_node">
 		<rect x="783" y="238" width="180" height="151" rx="8" ry="8" class="normal_fill"/>
 		<path d="M783 259 l180 0 l0 -13 q0 -8 -8 -8 l-164 0 q-8 0 -8 8 l0 13 Z" class="header_fill_builtin_node"/>
@@ -820,13 +790,67 @@ g.sorting_button > text {
 		<circle cx="1203" cy="337" r="6" class="list"/>
 		<text x="1193" y="341" text-anchor="end" class="label">list_obj</text>
 	</g>
+	<g class="node callable_node">
+		<rect x="445" y="330" width="180" height="213" rx="8" ry="8" class="normal_fill"/>
+		<path d="M445 351 l180 0 l0 -13 q0 -8 -8 -8 l-164 0 q-8 0 -8 8 l0 13 Z" class="header_fill_capsule_node"/>
+		<path d="M445 351 l180 0 l0 -13 q0 -8 -8 -8 l-164 0 q-8 0 -8 8 l0 13 Z" class="header_outline"/>
+		<text x="535" y="345" text-anchor="middle" class="title">list_from_args</text>
+		<rect x="527" y="522" width="17" height="17" class="id_bg_rect_capsule_node"/>
+		<text x="535" y="535" text-anchor="middle" class="id_text">0</text>
+		<rect x="445" y="330" width="180" height="213" rx="8" ry="8" class="outline"/>
+		<path d="M461 482 L465 482 L465 486 L469 486 L469 490 L465 490 L465 494 L461 494 L461 490 L457 490 L457 486 L461 486  Z" class="add_button"/>
+		<path d="M633.8045550861806 384.5114020489549 L631.1368028395716 387.4918546908723 L628.1563501976542 384.82410244426325 L625.4885979510451 387.80455508618064 L622.5081453091277 385.13680283957154 L625.1758975557368 382.15635019765415 L622.1954449138194 379.4885979510451 L624.8631971604284 376.5081453091277 L627.8436498023458 379.17589755573675 L630.5114020489549 376.19544491381936 L633.4918546908723 378.86319716042846 L630.8241024442632 381.84364980234585  Z" class="remove_button"/>
+		<path d="M633.8045550861806 412.5114020489549 L631.1368028395716 415.4918546908723 L628.1563501976542 412.82410244426325 L625.4885979510451 415.80455508618064 L622.5081453091277 413.13680283957154 L625.1758975557368 410.15635019765415 L622.1954449138194 407.4885979510451 L624.8631971604284 404.5081453091277 L627.8436498023458 407.17589755573675 L630.5114020489549 404.19544491381936 L633.4918546908723 406.86319716042846 L630.8241024442632 409.84364980234585  Z" class="remove_button"/>
+		<path d="M633.8045550861806 440.5114020489549 L631.1368028395716 443.4918546908723 L628.1563501976542 440.82410244426325 L625.4885979510451 443.80455508618064 L622.5081453091277 441.13680283957154 L625.1758975557368 438.15635019765415 L622.1954449138194 435.4885979510451 L624.8631971604284 432.5081453091277 L627.8436498023458 435.17589755573675 L630.5114020489549 432.19544491381936 L633.4918546908723 434.86319716042846 L630.8241024442632 437.84364980234585  Z" class="remove_button"/>
+		<path d="M633.8045550861806 468.5114020489549 L631.1368028395716 471.4918546908723 L628.1563501976542 468.82410244426325 L625.4885979510451 471.80455508618064 L622.5081453091277 469.13680283957154 L625.1758975557368 466.15635019765415 L622.1954449138194 463.4885979510451 L624.8631971604284 460.5081453091277 L627.8436498023458 463.17589755573675 L630.5114020489549 460.19544491381936 L633.4918546908723 462.86319716042846 L630.8241024442632 465.84364980234585  Z" class="remove_button"/>
+		<rect x="454" y="373" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 374 L455 380 L461 380 Z" class="subparam_move_button"/>
+		<rect x="454" y="401" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 402 L455 408 L461 408 Z" class="subparam_move_button"/>
+		<rect x="454" y="429" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 430 L455 436 L461 436 Z" class="subparam_move_button"/>
+		<rect x="454" y="457" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 458 L455 464 L461 464 Z" class="subparam_move_button"/>
+		<rect x="454" y="383" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 390 L455 384 L461 384 Z" class="subparam_move_button"/>
+		<rect x="454" y="411" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 418 L455 412 L461 412 Z" class="subparam_move_button"/>
+		<rect x="454" y="439" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 446 L455 440 L461 440 Z" class="subparam_move_button"/>
+		<rect x="454" y="467" width="8" height="8" class="subparam_move_button"/>
+		<path d="M458 474 L455 468 L461 468 Z" class="subparam_move_button"/>
+		<circle cx="443" cy="382" r="6" class="not_specified"/>
+		<circle cx="443" cy="410" r="6" class="not_specified"/>
+		<circle cx="443" cy="438" r="6" class="not_specified"/>
+		<circle cx="443" cy="466" r="6" class="not_specified"/>
+		<text x="454" y="369" text-anchor="start" class="label">*args</text>
+		<circle cx="443" cy="488" r="6" class="hollow_socket"/>
+		<g class="string_entry">
+			<rect x="466" y="373" width="155" height="17"/>
+			<text x="466" y="387" text-anchor="start"> string a</text>
+		</g>
+		<g class="string_entry">
+			<rect x="466" y="401" width="155" height="17"/>
+			<text x="466" y="415" text-anchor="start"> string b</text>
+		</g>
+		<g class="string_entry">
+			<rect x="466" y="429" width="155" height="17"/>
+			<text x="466" y="443" text-anchor="start">string_c</text>
+		</g>
+		<g class="string_entry">
+			<rect x="466" y="457" width="155" height="17"/>
+			<text x="466" y="471" text-anchor="start"> string_d</text>
+		</g>
+		<circle cx="627" cy="510" r="6" class="list"/>
+		<text x="617" y="514" text-anchor="end" class="label">a_list</text>
+	</g>
 	<g class="text_block">
 		<rect x="422" y="12" width="208" height="28"/>
 		<text x="426" y="30" text-anchor="start" style="fill:rgb(248, 248, 248);">the str.strip() method</text>
 	</g>
 	<g class="text_block">
-		<rect x="418" y="352" width="181" height="28"/>
-		<text x="422" y="370" text-anchor="start" style="fill:rgb(248, 248, 248);">our list of strings</text>
+		<rect x="443" y="284" width="181" height="28"/>
+		<text x="447" y="302" text-anchor="start" style="fill:rgb(248, 248, 248);">our list of strings</text>
 	</g>
 	<g class="text_block">
 		<rect x="1017" y="61" width="208" height="172"/>
