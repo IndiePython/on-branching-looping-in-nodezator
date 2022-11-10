@@ -161,11 +161,88 @@ Even so, it doesn't mean the functional approach with iterators is better than p
 
 As I mentioned earlier, you can also write custom generator functions that can be chained to take advantage of the gain in speed. Of course, it is up to you whether you use this approach or not. It depends on your use-case, on the purpose of your node pack(s).
 
-For instance, I have a node pack I use to create data representing movement in 2d space for animating game objects/characters. I didn't publish yet, but don't worry, I plan to release it to the public domain in the near future. Here's an example of it in action (clicking the thumbnail will redirect to the spot in an youtube video where I demonstrate the node pack in action):
+For instance, I have a node pack I use to create data representing movement in 2d space for animating game objects/characters. I didn't publish it yet, but don't worry, I plan to release it to the public domain in the near future. Here's an example of it in action (clicking the thumbnail will redirect to the spot in an youtube video where I demonstrate the node pack in action):
 
 [![thumb of youtube video](https://img.youtube.com/vi/GlQJvuU7Z_8/hqdefault.jpg)](https://www.youtube.com/watch?v=GlQJvuU7Z_8&t=1766s)
 
-[keep writing here]
+Creating your own generator function is actually super easy. Any function containing a `yield` statement automatically becomes a generator function. The `yield` statement works similarly to the `return` statement. They both mark an exit point for the function. The difference is that you can yield values as many times as you want from inside your generator function. When executed, your generator functions will return an iterator. An iterator is an object that "returns" the items yielded inside your function one at a time as the body of your function executes.
+
+There's a lot of extra relevant stuff to know about generator functions, but we encourage you to do your own research, as any deeper explanation is beyond the purpose of this article. For now, let me just demonstrate an example of such function. To make a generator function you just need to yield the values of your interest inside the function. That's all. In a generator function we only care about the items, not the collections we'll use to store them. Here's a simple example:
+
+```python
+def yield_doubled_items(items):
+    for item in items:
+        yield item * 2
+```
+
+To use your generator function, just call it in a for-loop like this:
+
+```
+>>> for item in yield_doubled_items(range(3)):
+...     item
+...
+0
+2
+4
+```
+
+Or pass the iterator (the return value) to a collection like this: 
+
+```
+>>> list(yield_doubled_items(range(3)))
+[0, 2, 4]
+```
+
+Finally, because generator functions only care about the items, chaining them is super easy as well. For instance, we can easily combine this new generator function below...
+
+```python
+def yield_string_representation(items):
+    for item in items:
+        yield repr(item)
+```
+
+...with our previous function, like this:
+
+```
+>>> for item in yield_string_representation(yield_doubled_items(range(3))):
+...     item
+...
+'0'
+'2'
+'4'
+```
+
+You can turn generator functions into nodes to be used in Nodezator just like you would any other function:
+
+```python
+def yield_doubled_items(items):
+    for item in items:
+        yield item * 2
+
+main_callable = yield_doubled_items
+```
+
+And this is the resulting node:
+
+![nodezator node representing `yield_doubled_items` generator function, in SVG](images/yield_doubled_items_node.svg)
+
+Though I personally like to include more info to make it clear for people seeing the node what type of data the node takes and returns:
+
+```python
+from collections.abc import Iterable, Iterator
+
+def yield_doubled_items(items:Iterable) -> Iterator:
+    for item in items:
+        yield item * 2
+
+main_callable = yield_doubled_items
+```
+
+Now the sockets are color-coded to reflect the expected types:
+
+![nodezator node representing `yield_doubled_items` generator function, in SVG](images/yield_doubled_items_node_with_type_hints.svg)
+
+I reiterate, this is only scratching the surface regarding generator functions. There's a lot more to be known, like the usage of the `yield from` statement.
 
 ---
 
